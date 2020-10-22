@@ -1,0 +1,89 @@
+000 (6085.000.000) 11/04 13:09:26 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=668282_71f6_3>
+...
+001 (6085.000.000) 11/04 13:12:33 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=1062_05ab_3>
+...
+006 (6085.000.000) 11/04 13:12:42 Image size of job updated: 13712
+	10  -  MemoryUsage of job (MB)
+	9332  -  ResidentSetSize of job (KB)
+...
+006 (6085.000.000) 11/04 13:15:02 Image size of job updated: 11572820
+	10  -  MemoryUsage of job (MB)
+	9332  -  ResidentSetSize of job (KB)
+...
+005 (6085.000.000) 11/04 13:15:04 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:03, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:03, Sys 0 00:00:15  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	468  -  Run Bytes Sent By Job
+	19811235840  -  Run Bytes Received By Job
+	468  -  Total Bytes Sent By Job
+	19811235840  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.16        2         2 
+	   Disk (KB)            : 19346929    31457280  31945512 
+	   Gpus                 :        0           2         2 "CUDA5,CUDA6"
+	   Memory (MB)          :       10       61440     61440 
+...
+000 (6086.000.000) 11/04 13:24:19 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=668282_71f6_3>
+...
+001 (6086.000.000) 11/04 13:27:10 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=1062_05ab_3>
+...
+006 (6086.000.000) 11/04 13:27:19 Image size of job updated: 65604
+	65  -  MemoryUsage of job (MB)
+	65604  -  ResidentSetSize of job (KB)
+...
+006 (6086.000.000) 11/04 13:30:49 Image size of job updated: 32742060
+	65  -  MemoryUsage of job (MB)
+	65604  -  ResidentSetSize of job (KB)
+...
+005 (6086.000.000) 11/04 13:30:50 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:51, Sys 0 00:01:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:51, Sys 0 00:01:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	8025  -  Run Bytes Sent By Job
+	19811235840  -  Run Bytes Received By Job
+	8025  -  Total Bytes Sent By Job
+	19811235840  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.78        2         2 
+	   Disk (KB)            : 20314477    31457280  31945512 
+	   Gpus                 :        0.01        2         2 "CUDA5,CUDA6"
+	   Memory (MB)          :       65       61440     61440 
+...
+000 (6089.000.000) 11/04 16:15:16 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=668282_71f6_3>
+...
+001 (6089.000.000) 11/04 16:26:06 Job executing on host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=668282_71f6_4>
+...
+006 (6089.000.000) 11/04 16:26:15 Image size of job updated: 453388
+	435  -  MemoryUsage of job (MB)
+	444888  -  ResidentSetSize of job (KB)
+...
+006 (6089.000.000) 11/04 16:31:16 Image size of job updated: 33679888
+	32796  -  MemoryUsage of job (MB)
+	33582756  -  ResidentSetSize of job (KB)
+...
+006 (6089.000.000) 11/04 16:31:54 Image size of job updated: 33729728
+	32796  -  MemoryUsage of job (MB)
+	33582756  -  ResidentSetSize of job (KB)
+...
+005 (6089.000.000) 11/04 16:31:55 Job terminated.
+	(0) Abnormal termination (signal 6)
+	(0) No core file
+		Usr 0 00:00:51, Sys 0 00:00:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:51, Sys 0 00:00:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1105395  -  Run Bytes Sent By Job
+	19811235840  -  Run Bytes Received By Job
+	1105395  -  Total Bytes Sent By Job
+	19811235840  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.06        2         2 
+	   Disk (KB)            : 20315548    31457280  31600073 
+	   Gpus                 :        0.01        2         2 "CUDA1,CUDA3"
+	   Memory (MB)          :    32796       61440     61440 
+...

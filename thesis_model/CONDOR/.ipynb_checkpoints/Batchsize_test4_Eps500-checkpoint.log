@@ -1,0 +1,16 @@
+000 (86810.000.000) 02/13 14:33:07 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+001 (86810.000.000) 02/13 14:37:48 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (86810.000.000) 02/13 14:37:48 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_14685/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (86810.000.000) 02/13 14:37:48 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_14685/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+009 (86810.000.000) 02/13 14:46:29 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...

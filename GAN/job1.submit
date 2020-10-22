@@ -1,0 +1,18 @@
+executable = ResNet_GAN.py
+
+should_transfer_files = YES
+transfer_input_files = /home/zoshs2/tf_gpu/Re/DATA/BS2_BW1_NN_RGB_10318.npy, /home/zoshs2/tf_gpu/Re/DATA/BS0_BW0_NN_RGB_10318.npy
+when_to_transfer_output = ON_EXIT
+
+log = BS2_BW1_ResNet_GAN.log
+output = BS2_BW1_ResNet_GAN.out
+error = BS2_BW1_ResNet_GAN.err
+
+request_cpus = 2
+request_gpus = 2
+request_memory = 60GB
+request_disk = 30GB
+
+JobBatchName = BS2_BW1_ResNet_GAN
+
+queue

@@ -1,0 +1,52 @@
+000 (86244.000.000) 12/21 20:36:52 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=2660_1e02_3>
+...
+001 (86244.000.000) 12/21 20:42:13 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=3869_6402_3>
+...
+006 (86244.000.000) 12/21 20:42:22 Image size of job updated: 104788
+	101  -  MemoryUsage of job (MB)
+	103164  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 20:47:23 Image size of job updated: 7249040
+	7074  -  MemoryUsage of job (MB)
+	7243396  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 20:52:24 Image size of job updated: 25875732
+	25137  -  MemoryUsage of job (MB)
+	25739660  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 20:57:24 Image size of job updated: 25875860
+	25137  -  MemoryUsage of job (MB)
+	25739788  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 21:02:25 Image size of job updated: 25875860
+	25151  -  MemoryUsage of job (MB)
+	25753680  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 21:07:26 Image size of job updated: 25878300
+	25152  -  MemoryUsage of job (MB)
+	25754864  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 21:12:26 Image size of job updated: 31812680
+	30947  -  MemoryUsage of job (MB)
+	31689164  -  ResidentSetSize of job (KB)
+...
+006 (86244.000.000) 12/21 21:17:26 Image size of job updated: 31812680
+	30952  -  MemoryUsage of job (MB)
+	31694792  -  ResidentSetSize of job (KB)
+...
+005 (86244.000.000) 12/21 21:41:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:52:12, Sys 0 00:07:55  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:52:12, Sys 0 00:07:55  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3738756096  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+	3738756096  -  Total Bytes Sent By Job
+	9905617920  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.07        2         2 
+	   Disk (KB)            : 16967064    20971520  21365883 
+	   Gpus                 :        0.31        1         1 "CUDA5"
+	   Memory (MB)          :    30952       20480     20480 
+...

@@ -1,0 +1,111 @@
+000 (86810.000.000) 02/13 14:33:07 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+001 (86810.000.000) 02/13 14:37:48 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (86810.000.000) 02/13 14:37:48 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_14685/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (86810.000.000) 02/13 14:37:48 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_14685/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+009 (86810.000.000) 02/13 14:46:29 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...
+000 (86816.000.000) 02/13 14:48:22 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+001 (86816.000.000) 02/13 14:49:48 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (86816.000.000) 02/13 14:49:48 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_18746/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (86816.000.000) 02/13 14:49:48 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_18746/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+000 (86817.000.000) 02/13 14:51:37 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+004 (86817.000.000) 02/13 14:52:00 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  1670867 20971520  21325240 
+	   Gpus                 :        0        1         1 "CUDA0"
+	   Memory (MB)          :             40960     42000 
+...
+009 (86817.000.000) 02/13 14:52:00 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...
+009 (86816.000.000) 02/13 14:52:12 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...
+000 (86818.000.000) 02/13 14:52:21 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+001 (86818.000.000) 02/13 14:53:47 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (86818.000.000) 02/13 14:53:47 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_19815/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (86818.000.000) 02/13 14:53:47 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_19815/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+000 (86819.000.000) 02/13 14:54:03 Job submitted from host: <192.168.10.28:9618?addrs=192.168.10.28-9618&noUDP&sock=3133_8e4e_3>
+...
+009 (86818.000.000) 02/13 14:54:14 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...
+001 (86819.000.000) 02/13 14:55:29 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (86819.000.000) 02/13 14:55:29 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_20330/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (86819.000.000) 02/13 14:55:29 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_20330/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+009 (86819.000.000) 02/13 14:59:04 Job was aborted by the user.
+	via condor_rm (by user zoshs2)
+...
+000 (565359.000.000) 02/13 15:00:26 Job submitted from host: <192.168.10.27:9618?addrs=192.168.10.27-9618&noUDP&sock=3120_a393_18>
+...
+001 (565359.000.000) 02/13 15:01:53 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (565359.000.000) 02/13 15:01:54 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_21940/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (565359.000.000) 02/13 15:01:54 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_21940/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+013 (565359.000.000) 02/13 15:32:40 Job was released.
+	The system macro SYSTEM_PERIODIC_RELEASE expression '((CurrentTime - EnteredCurrentStatus > 30 * 60) && (JobRunCount < 2))' evaluated to TRUE
+...
+001 (565359.000.000) 02/13 15:34:16 Job executing on host: <192.168.10.30:9618?addrs=192.168.10.30-9618&noUDP&sock=4747_a029_3>
+...
+007 (565359.000.000) 02/13 15:34:16 Shadow exception!
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_30625/condor_exec.exe': (errno=2: 'No such file or directory')
+	0  -  Run Bytes Sent By Job
+	9905617920  -  Run Bytes Received By Job
+...
+012 (565359.000.000) 02/13 15:34:16 Job was held.
+	Error from slot1_1@dgx.sscc.uos: Failed to execute '/var/lib/condor/execute/dir_30625/condor_exec.exe': (errno=2: 'No such file or directory')
+	Code 6 Subcode 2
+...
+009 (565359.000.000) 02/13 16:04:58 Job was aborted by the user.
+	The system macro SYSTEM_PERIODIC_REMOVE expression '((JobStatus == 5 && (CurrentTime - EnteredCurrentStatus) > 30 * 60))' evaluated to TRUE
+...

@@ -1,0 +1,76 @@
+WARNING: Logging before flag parsing goes to stderr.
+W1221 20:50:17.742063 47435197955776 deprecation.py:506] From /home/zoshs2/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-12-21 20:50:19.975390: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-12-21 20:50:20.266182: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2195055000 Hz
+2019-12-21 20:50:20.272176: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55702dd65de0 executing computations on platform Host. Devices:
+2019-12-21 20:50:20.272230: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-12-21 20:50:20.277212: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-12-21 20:50:20.362963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:86:00.0
+2019-12-21 20:50:20.438495: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-12-21 20:50:21.138293: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-12-21 20:50:21.698848: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-12-21 20:50:22.433218: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-12-21 20:50:22.866783: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-12-21 20:50:23.329690: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-12-21 20:50:23.956511: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-12-21 20:50:23.983455: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-21 20:50:23.983571: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-12-21 20:50:24.756687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-21 20:50:24.756742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-12-21 20:50:24.756758: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-12-21 20:50:24.768255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30465 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:86:00.0, compute capability: 7.0)
+2019-12-21 20:50:24.770997: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55702ebdc7e0 executing computations on platform CUDA. Devices:
+2019-12-21 20:50:24.771026: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+2019-12-21 20:50:39.185743: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-12-21 20:50:40.292802: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-12-21 20:50:48.507713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:86:00.0
+2019-12-21 20:50:48.507852: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-12-21 20:50:48.507896: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-12-21 20:50:48.507926: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-12-21 20:50:48.507954: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-12-21 20:50:48.507982: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-12-21 20:50:48.508010: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-12-21 20:50:48.508039: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-12-21 20:50:48.511709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-21 20:50:48.514069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:86:00.0
+2019-12-21 20:50:48.514129: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-12-21 20:50:48.514162: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-12-21 20:50:48.514189: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-12-21 20:50:48.514215: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-12-21 20:50:48.514241: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-12-21 20:50:48.514267: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-12-21 20:50:48.514293: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-12-21 20:50:48.517815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-21 20:50:48.517875: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-21 20:50:48.517890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-12-21 20:50:48.517901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-12-21 20:50:48.521808: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30465 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:86:00.0, compute capability: 7.0)
+2019-12-21 20:50:48.527506: I tensorflow/core/profiler/lib/profiler_session.cc:174] Profiler session started.
+2019-12-21 20:50:48.529378: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcupti.so.10.1
+2019-12-21 20:50:48.629968: W tensorflow/core/profiler/lib/profiler_session.cc:182] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI_ERROR_INSUFFICIENT_PRIVILEGES
+2019-12-21 20:50:48.658581: I tensorflow/core/platform/default/device_tracer.cc:641] Collecting 0 kernel records, 0 memcpy records.
+2019-12-21 20:50:48.658872: E tensorflow/core/platform/default/device_tracer.cc:68] CUPTI error: CUPTI_ERROR_INVALID_PARAMETER
+2019-12-21 21:02:20.705451: I tensorflow/core/profiler/lib/profiler_session.cc:174] Profiler session started.
+2019-12-21 21:02:20.706454: W tensorflow/core/profiler/lib/profiler_session.cc:182] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI_ERROR_INSUFFICIENT_PRIVILEGES
+2019-12-21 21:02:20.724553: I tensorflow/core/platform/default/device_tracer.cc:641] Collecting 0 kernel records, 0 memcpy records.
+2019-12-21 21:02:20.724737: E tensorflow/core/platform/default/device_tracer.cc:68] CUPTI error: CUPTI_ERROR_INVALID_PARAMETER
+2019-12-21 21:12:50.500807: I tensorflow/core/profiler/lib/profiler_session.cc:174] Profiler session started.
+2019-12-21 21:12:50.500971: W tensorflow/core/profiler/lib/profiler_session.cc:182] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI_ERROR_NOT_INITIALIZED
+2019-12-21 21:12:50.527614: I tensorflow/core/platform/default/device_tracer.cc:641] Collecting 0 kernel records, 0 memcpy records.
+2019-12-21 21:12:50.527829: E tensorflow/core/platform/default/device_tracer.cc:68] CUPTI error: CUPTI_ERROR_INVALID_PARAMETER
+2019-12-21 21:21:35.270908: I tensorflow/core/profiler/lib/profiler_session.cc:174] Profiler session started.
+2019-12-21 21:21:35.271027: W tensorflow/core/profiler/lib/profiler_session.cc:182] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI_ERROR_NOT_INITIALIZED
+2019-12-21 21:21:35.289729: I tensorflow/core/platform/default/device_tracer.cc:641] Collecting 0 kernel records, 0 memcpy records.
+2019-12-21 21:21:35.289906: E tensorflow/core/platform/default/device_tracer.cc:68] CUPTI error: CUPTI_ERROR_INVALID_PARAMETER
+2019-12-21 21:30:45.851480: I tensorflow/core/profiler/lib/profiler_session.cc:174] Profiler session started.
+2019-12-21 21:30:45.851580: W tensorflow/core/profiler/lib/profiler_session.cc:182] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI_ERROR_NOT_INITIALIZED
+2019-12-21 21:30:45.882164: I tensorflow/core/platform/default/device_tracer.cc:641] Collecting 0 kernel records, 0 memcpy records.
+2019-12-21 21:30:45.882425: E tensorflow/core/platform/default/device_tracer.cc:68] CUPTI error: CUPTI_ERROR_INVALID_PARAMETER
